@@ -6,6 +6,10 @@ class Student:
     def info(self):
         return f'{self.name} is {self.age} years old.'
 
+class Rysia(Student):
+    def __init__(self):
+        super().__init__('Rysbai', 17)
+
 class Asko(Student):
     def __init__(self):
         super().__init__('Askat', 25)
